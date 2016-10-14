@@ -1,6 +1,6 @@
-<?php namespace Lanin\Laravel\EmailTemplatesEngine\Tests;
+<?php namespace Lanin\Laravel\EmailTemplatesOptimization\Tests;
 
-use Lanin\Laravel\EmailTemplatesEngine\ServiceProvider;
+use Lanin\Laravel\EmailTemplatesOptimization\ServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

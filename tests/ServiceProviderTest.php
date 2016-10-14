@@ -1,7 +1,7 @@
-<?php namespace Lanin\Laravel\EmailTemplatesEngine\Tests;
+<?php namespace Lanin\Laravel\EmailTemplatesOptimization\Tests;
 
-use Lanin\Laravel\EmailTemplatesEngine\Compiler;
-use Lanin\Laravel\EmailTemplatesEngine\ServiceProvider;
+use Lanin\Laravel\EmailTemplatesOptimization\Compiler;
+use Lanin\Laravel\EmailTemplatesOptimization\ServiceProvider;
 
 class ServiceProviderTest extends TestCase
 {

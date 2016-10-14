@@ -1,6 +1,6 @@
 <?php
 
-namespace Lanin\Laravel\EmailTemplatesEngine;
+namespace Lanin\Laravel\EmailTemplatesOptimization;
 
 use Illuminate\View\Engines\CompilerEngine;
 

@@ -1,4 +1,4 @@
-# Laravel-Email-Templates-Engine
+# Laravel-Email-Templates-Optimization
 > Optimize your email templates styles via native Laravel templating mechanism.
 
 ## Contributing

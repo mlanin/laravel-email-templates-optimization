@@ -1,8 +1,8 @@
 {
-    "name": "lanin/laravel-email-templates-engine",
+    "name": "lanin/laravel-email-templates-optimization",
     "autoload": {
         "psr-4": {
-            "Lanin\\Laravel\\EmailTemplatesEngine\\": "src/"
+            "Lanin\\Laravel\\EmailTemplatesOptimization\\": "src/"
         }
     },
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Lanin\\Laravel\\EmailTemplatesEngine\\Tests\\": "tests/"
+            "Lanin\\Laravel\\EmailTemplatesOptimization\\Tests\\": "tests/"
         }
     }
 }

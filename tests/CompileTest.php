@@ -1,4 +1,4 @@
-<?php namespace Lanin\Laravel\EmailTemplatesEngine\Tests;
+<?php namespace Lanin\Laravel\EmailTemplatesOptimization\Tests;
 
 use Illuminate\Contracts\Console\Kernel;
 use Symfony\Component\DomCrawler\Crawler;
