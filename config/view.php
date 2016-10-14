@@ -12,6 +12,6 @@ return [
         | The content of these files will be added directly into the inliner
         |
         */
-        'css-files' => [],
+        'css_files' => [],
     ]
 ];

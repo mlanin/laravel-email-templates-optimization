@@ -13,7 +13,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function boot()
     {
-        $configPath = __DIR__ . '/config/view.php';
+        $configPath = __DIR__ . '/../config/view.php';
 
         $this->mergeConfigFrom($configPath, 'view');
     }
@@ -39,7 +39,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 
         $app->bind('email.compiler', function () use ($app) {
             $cache = $app['config']['view.compiled'];
-            $css = $app['config']['view.emails.css-files'];
+            $css = $app['config']['view.emails.css_files'];
 
             return new Compiler($app['files'], $cache, $css);
         });
@@ -47,5 +47,17 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $app['view']->addExtension('email.php', 'email', function () use ($app) {
             return new CompilerEngine($app['email.compiler']);
         });
+    }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
+    public function provides()
+    {
+        return [
+            'email.compiler'
+        ];
     }
 }

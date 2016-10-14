@@ -1,0 +1,14 @@
+* {
+    line-height: 1;
+}
+body {
+    color: #333;
+    font-size: 14px;
+}
+h1 {
+    font-size: 20px;
+}
+.content a {
+    color: #000000;
+    text-decoration: underline;
+}
