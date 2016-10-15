@@ -94,7 +94,7 @@ For this you set copy this into your view.php config:
         | Css Files
         |--------------------------------------------------------------------------
         |
-        | List of absolute paths to static css files to use in your email templats.
+        | List of absolute paths to static css files to use in your email templates.
         |
         | Example: realpath(resource_path('assets/css/emails.css'))
         |
