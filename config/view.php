@@ -8,8 +8,9 @@ return [
         | Css Files
         |--------------------------------------------------------------------------
         |
-        | Css file of your style for your emails
-        | The content of these files will be added directly into the inliner
+        | List of absolute paths to static css files to use in your email templats.
+        |
+        | Example: realpath(resource_path('assets/css/emails.css'))
         |
         */
         'css_files' => [],
