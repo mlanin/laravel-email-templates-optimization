@@ -1,6 +1,6 @@
 {
     "name": "lanin/laravel-email-templates-optimization",
-    "description": "Optimize your email templates styles via native Laravel templating mechanism.",
+    "description": "Optimize your email templates' styles via native Laravel templating mechanism.",
     "keywords": ["laravel", "framework", "email", "template", "css", "optimization"],
     "license": "MIT",
     "authors": [
